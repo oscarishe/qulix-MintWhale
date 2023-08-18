@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MintWhale</title>
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/example.css">
+    <link rel="stylesheet" href="./style/insurance.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/animations.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <img src="./assets/images/header/logo.png" alt="" class="logo">
+                <div class="header-nav">
+                    <a href="" class="header-nav__link">about</a>
+                    <a href="" class="header-nav__link">team</a>
+                    <a href="" class="header-nav__link">tokenomics</a>
+                    <a href="" class="header-nav__link">roadmap</a>
+                    <a href="" class="header-nav__link">insurance</a>
+                    <button class="header-nav__close-button">
+                        X
+                    </button>
+                </div>
+                <button class="header-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <section class="example">
+        <div class="container">
+            <h1 class="main-title">
+                Example
+            </h1>
+            <div class="step step_single-arrow" data-animation="animatedFadeInUp">
+                The clients invested 5 BTC and 10 ETH
+                <div class="arrow"></div>
+            </div>
+            <div class="step step_double-arrow" data-animation="animatedFadeInUp">
+                Engine makes a mistake and portfolio looks like 5 BTC and 8 ETH
+                <div class="arrow"></div>
+                <div class="arrow"></div>
+            </div>
+            <div class="example__container">
+                <div class="step step_single-arrow" data-animation="animatedFadeInUp">
+                    The clients wants to withdraw their assets
+                    <div class="step__text-secondary">
+                        *In case it is protected by insurance
+                    </div>
+                    <div class="arrow"></div>
+                </div>
+                <div class="step step_single-arrow" data-animation="animatedFadeInUp">
+                    We compensate the amount of the shortage(i.e. 2 ETH)
+                    <div class="arrow"></div>
+                </div>
+            </div>
+            <div class="example__container">
+                <div class="step" data-animation="animatedFadeInUp">
+                    The clients doesn’t want to withdraw their assets
+                </div>
+                <div class="step" data-animation="animatedFadeInUp">
+                    The algorithm will balance the portfolio with time
+                </div>
+            </div>
+        </div>
+        <img src="./assets/images/example/bottom-left.png" alt="Vector"
+            class="example__image example__image_bottom-left">
+        <img src="./assets/images/example/top-right.png" alt="Vector" class="example__image example__image_top-right">
+    </section>
+    <section class="insurance">
+        <div class="container">
+            <div class="insurance__container">
+                <h2 class="insurance__title" data-animation="animatedFadeInUp">
+                    Insurance is based on Insurance Fund
+                </h2>
+                <div class="insurance__item-container">
+                    <div class="insurance-item" data-animation="animatedFadeInLeft">
+                        <img src="./assets/images/insurance/icon-1.png" alt="" class="insurance-item__image">
+                        <div class="insurance-item__text">
+                            deductions from the platform's profit
+                        </div>
+                    </div>
+                    <div class="insurance-item" data-animation="animatedFadeInRight">
+                        <img src="./assets/images/insurance/icon-2.png" alt="" class="insurance-item__image">
+                        <div class="insurance-item__text">
+                            deductions from the profit on insured portfolios
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="insurance-options">
+                <h2 class="insurance__title" data-animation="animatedFadeInLeft">
+                    Choose you option
+                </h2>
+                <div class="insurance-options__content" data-animation="animatedFadeInUp">
+                    <div class="insurance-options-item insurance-options-item_blue">
+                        <img src="./assets/images/insurance/option-1.png" alt="" class="insurance-options-item__icon">
+                        <div class="insurance-options-item__text">
+                            Protection of the investments.<br> Lower % of profit on them.
+                        </div>
+                    </div>
+                    <div class="insurance-options-item insurance-options-item_green">
+                        <img src="./assets/images/insurance/option-2.png" alt="" class="insurance-options-item__icon">
+                        <div class="insurance-options-item__text">
+                            Higher % of the return on investments and higher risks.
+                        </div>
+                    </div>
+                    <img src="./assets/images/insurance/insurance.png" alt="" class="insurance-options__image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top-section">
+                <h2 class="footer__title" data-animation="animatedFadeInLeft">
+                    Join us now
+                </h2>
+                <h3 class="footer__subtitle" data-animation="animatedFadeInRight">
+                    Follow us to be updated about project stages
+                </h3>
+                <div class="footer__social-links" data-animation="animatedFadeInUp">
+                    <a href="" class="social-icon">
+                        <img src="./assets/images/footer/telegram.png" alt="">
+                    </a>
+                    <a href="" class="social-icon">
+                        <img src="./assets/images/footer/twitter.png" alt="">
+                    </a>
+                    <a href="" class="social-icon">
+                        <img src="./assets/images/footer/linkedin.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom-section">
+            <div class="container">
+                <div class="footer__links">
+                    <a href="" class="footer__link">Docs</a>
+                    <a href="" class="footer__link">Blog</a>
+                </div>
+                <div class="footer__copyright">
+                    © 2021 MintWhale. All rights reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="backdrop"></div>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/animation.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+.header {
+    padding: 10px 0;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 7;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    height: 100vh;
+    background: #FFF;
+    padding: 30px 25px;
+    transform: translateX(-110%);
+    transition: 0.3s;
+}
+
+.header-nav.active {
+    transform: translateX(0);
+}
+
+.header-nav__close-button {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: -1px;
+    top: 0;
+    align-items: center;
+    color: #FFF;
+    border: none;
+    background: #df3d21;
+    width: 30px;
+    height: 30px;
+}
+
+.header-nav__link {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
+}
+
+.header-nav__link:hover {
+    border-bottom: 3px solid #58F5EF;
+}
+
+.header-burger {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    gap: 4px;
+    background: transparent;
+    border: none;
+}
+
+.header-burger span {
+    width: 20px;
+    background: #17BEBB;
+    height: 2px;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 60px;
+    height: 40px;
+    margin-right: 45px;
+}
+
+@media (min-width:576px) {
+}
+
+@media (min-width:768px) {
+    .header-nav {
+        display: flex;
+    }
+
+    .header__container {
+        justify-content: flex-start;
+    }
+
+    .header-burger {
+        display: none;
+    }
+
+    .header-nav {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        background: transparent;
+        padding: 0;
+        transform: none;
+        align-items: center;
+        position: static;
+        column-gap: 32px;
+    }
+
+    .header-nav__close-button {
+        display: none;
+    }
+    .logo {
+        width: 141px;
+        height: 96px;
+    }
+}
+
+@media (min-width:992px) {
+    .logo {
+        margin-right: 175px;
+    }
+    .header {
+        padding: 10px 0 50px;
+    }
+}
+
+@media (min-width:1200px) {
+    .logo {
+        margin-right: 297px;
+    }
+
+    .header {
+        padding: 10px 0 10px;
+    }
+}

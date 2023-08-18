@@ -1,0 +1,226 @@
+.insurance {
+    padding: 50px 0 65px;
+}
+
+.insurance__container {
+    display: flex;
+    flex-direction: column;
+    column-gap: 90px;
+    row-gap: 30px;
+    margin-bottom: 75px;
+}
+
+.insurance__title {
+    color: var(--mint-dark, #17BEBB);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+.insurance__item-container {
+    display: flex;
+    flex-direction: column;
+    column-gap: 40px;
+    row-gap: 30px;
+}
+
+.insurance-item {
+    text-align: center;
+    flex: 1 1 0px;
+    opacity: 0;
+}
+
+.insurance-item__image {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.insurance-item__text {
+    margin: auto;
+    color: #95A7B8;
+    font-size: 18px;
+}
+
+.insurance-options__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    opacity: 0;
+}
+
+.insurance-options__image {
+    position: absolute;
+    display: none;
+    left: -40%;
+    top: -80%;
+}
+
+.insurance-options .insurance__title {
+    width: 100%;
+    max-width: none;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.insurance-options-item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    padding: 8px 24px 24px;
+    row-gap: 0;
+    flex: 1 1 0px;
+    height: auto;
+}
+
+.insurance-options-item__icon {
+    align-self: flex-end;
+    transform: translateY(20px);
+}
+
+.insurance-options-item__text {
+    color: #202030;
+    font-size: 18px;
+    width: 80%;
+}
+
+.insurance-options-item_blue {
+    background: #94D8FF;
+}
+
+.insurance-options-item_green {
+    background: #9EEDE9;
+}
+
+@media (min-width:480px) {
+    .insurance-item__image {
+        width: 220px;
+    }
+
+    .insurance__item-container {
+        flex-direction: row;
+    }
+}
+
+
+@media (min-width:576px) {
+
+    .insurance__title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .insurance-options-item {
+        row-gap: 10px;
+        padding: 16px 24px 24px;
+    }
+
+    .insurance-options-item__icon {
+        transform: translateY(0px);
+    }
+
+    .insurance-options-item__text {
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .insurance {
+        padding: 85px 0 40px;
+    }
+
+    .insurance__container {
+        column-gap: 0;
+        flex-direction: row;
+    }
+
+    .insurance__item-container {
+        column-gap: 20px;
+    }
+
+    .insurance__title {
+        max-width: 415px;
+        text-align: left;
+    }
+
+    .insurance-options__content {
+        width: 75%;
+        column-gap: 20px;
+        flex-direction: row;
+    }
+
+    .insurance-options .insurance__title {
+        width: 75%;
+    }
+
+    .insurance-options__image {
+        display: block;
+        left: -45%;
+        top: -40%;
+        width: 60%;
+    }
+}
+
+@media (min-width:992px) {
+    .insurance__container {
+        display: flex;
+        column-gap: 30px;
+        margin-bottom: 75px;
+    }
+
+    .insurance-options__content {
+        width: 75%;
+        column-gap: 30px;
+    }
+
+    .insurance-options .insurance__title {
+        width: 75%;
+    }
+
+    .insurance {
+        padding: 70px 0 50px;
+    }
+
+    .insurance__title {
+        width: auto;
+    }
+
+    .insurance-options__image {
+        display: block;
+        position: absolute;
+        width: auto;
+        left: -40%;
+        top: -80%;
+    }
+}
+
+@media (min-width:1200px) {
+    .insurance {
+        padding: 90px 0 75px;
+    }
+
+    .insurance__container {
+        display: flex;
+        column-gap: 90px;
+        margin-bottom: 75px;
+    }
+
+    .insurance-options__content {
+        width: 65%;
+    }
+
+    .insurance-options .insurance__title {
+        width: 65%;
+    }
+
+    .insurance__item-container {
+        column-gap: 90px;
+    }
+
+}
