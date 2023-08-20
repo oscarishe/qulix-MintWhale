@@ -58,8 +58,8 @@
 .insurance-options__image {
     position: absolute;
     display: none;
-    left: -40%;
-    top: -80%;
+    object-fit: cover;
+
 }
 
 .insurance-options .insurance__title {
@@ -162,9 +162,10 @@
 
     .insurance-options__image {
         display: block;
-        left: -55%;
-        top: -30%;
-        width: 65%;
+        left: -53%;
+        top: -11%;
+        width: 301px;
+        height: 301px;
     }
 }
 
@@ -194,11 +195,8 @@
     }
 
     .insurance-options__image {
-        display: block;
-        position: absolute;
-        width: auto;
-        left: -40%;
-        top: -80%;
+        left: -32%;
+        top: -52%;
     }
 }
 
@@ -215,6 +213,13 @@
 
     .insurance-options__content {
         width: 65%;
+    }
+
+    .insurance-options__image {
+        width: 357px;
+        height: 357px;
+        left: -40%;
+        top: -80%;
     }
 
     .insurance-options .insurance__title {
