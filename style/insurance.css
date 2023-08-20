@@ -7,7 +7,7 @@
     flex-direction: column;
     column-gap: 90px;
     row-gap: 30px;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 }
 
 .insurance__title {
@@ -132,12 +132,13 @@
 
 @media (min-width:768px) {
     .insurance {
-        padding: 85px 0 40px;
+        padding: 70px 0 40px;
     }
 
     .insurance__container {
         column-gap: 0;
         flex-direction: row;
+        margin-bottom: 60px;
     }
 
     .insurance__item-container {
@@ -145,25 +146,25 @@
     }
 
     .insurance__title {
-        max-width: 415px;
+        max-width: 250px;
         text-align: left;
     }
 
     .insurance-options__content {
-        width: 75%;
+        width: 70%;
         column-gap: 20px;
         flex-direction: row;
     }
 
     .insurance-options .insurance__title {
-        width: 75%;
+        width: 70%;
     }
 
     .insurance-options__image {
         display: block;
-        left: -45%;
-        top: -40%;
-        width: 60%;
+        left: -55%;
+        top: -30%;
+        width: 65%;
     }
 }
 
@@ -171,7 +172,7 @@
     .insurance__container {
         display: flex;
         column-gap: 30px;
-        margin-bottom: 75px;
+        margin-bottom: 60px;
     }
 
     .insurance-options__content {
@@ -189,6 +190,7 @@
 
     .insurance__title {
         width: auto;
+        max-width: 415px;
     }
 
     .insurance-options__image {

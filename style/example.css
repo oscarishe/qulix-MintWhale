@@ -123,13 +123,11 @@
     }
 }
 
-@media (min-width:768px) {
-    .example {
-        padding: 80px 0 80px;
-    }
-}
-
 @media (min-width:992px) {
+
+    .example {
+        padding: 80px 0;
+    }
 
     .step {
         padding: 16px 24px;

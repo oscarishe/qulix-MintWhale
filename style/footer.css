@@ -37,6 +37,14 @@
     margin-bottom: 10px;
 }
 
+.social-icon {
+    font-size: 0;
+}
+
+.social-icon img {
+    object-fit: cover;
+}
+
 .footer__bottom-section {
     background: #F4F5F6;
     padding: 13px;
